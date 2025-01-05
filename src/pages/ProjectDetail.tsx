@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import { FaArrowLeft, FaExternalLinkAlt } from 'react-icons/fa';
+import { FaArrowLeft } from 'react-icons/fa';
 import { projects } from '../data/projects';
 
 const ProjectDetailContainer = styled.div`
@@ -176,7 +176,7 @@ const ProjectDetail = () => {
         <ButtonContainer>
           {project.demoUrl && (
             <Button href={project.demoUrl} target="_blank" rel="noopener noreferrer">
-              <FaExternalLinkAlt /> View Demo
+              View Demo
             </Button>
           )}
         </ButtonContainer>
