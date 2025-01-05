@@ -9,8 +9,9 @@ export const homeContent: HomeContent = {
   majoring in Robotics with a minor in Computer Science. My focus is on robotic software and autonomy, combining a strong theoretical foundation with hands-on experience. 
   I’ve developed skills in software engineering, control systems, and experimental research through roles such as designing 
   simulation tools at General Atomics and advancing UAV research at the HaptiX Lab. Passionate about creating innovative solutions, 
-  I am seeking opportunities to apply my expertise in robotics software, autonomous systems, and the integration of AI and machine learning, 
-  including their application in robotics.`,
+  I am seeking opportunities to apply my expertise in robotics software, autonomous systems, and the integration of AI and machine learning.`,
+  linkedinUrl: 'https://www.linkedin.com/in/darren-cleeman-27318219b/',
+  email: 'dcleeman@umich.edu',
   education: {
     university: 'University of Michigan',
     location: 'Ann Arbor, MI',

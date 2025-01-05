@@ -1,65 +1,48 @@
 import styled from 'styled-components';
-import { FaLinkedin, FaEnvelope, FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { homeContent } from '../data/home';
 
 const FooterContainer = styled.footer`
-  background: #1a1a1a;
-  padding: 2rem;
-  margin-top: auto;
-`;
-
-const FooterContent = styled.div`
-  max-width: 1200px;
-  margin: 0 auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(10, 25, 47, 0.85);
+  backdrop-filter: blur(10px);
+  padding: 1rem;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  
-  @media (max-width: 768px) {
-    flex-direction: column;
-    gap: 1rem;
-    text-align: center;
-  }
+  justify-content: center;
+  gap: 2rem;
+  z-index: 100;
 `;
 
-const SocialLinks = styled.div`
-  display: flex;
-  gap: 1.5rem;
-  
-  a {
-    color: #8892b0;
-    font-size: 1.5rem;
-    transition: color 0.3s ease;
-    
-    &:hover {
-      color: #64ffda;
-    }
-  }
-`;
-
-const Copyright = styled.p`
+const IconLink = styled.a`
   color: #8892b0;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
+  transition: color 0.2s ease;
+  
+  &:hover {
+    color: #64ffda;
+  }
 `;
 
 const Footer = () => {
   return (
     <FooterContainer>
-      <FooterContent>
-        <SocialLinks>
-          <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin />
-          </a>
-          <a href="mailto:your.email@example.com">
-            <FaEnvelope />
-          </a>
-          <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
-            <FaGithub />
-          </a>
-        </SocialLinks>
-        <Copyright>
-          © {new Date().getFullYear()} Your Name. All rights reserved.
-        </Copyright>
-      </FooterContent>
+      <IconLink 
+        href={homeContent.linkedinUrl} 
+        target="_blank" 
+        rel="noopener noreferrer"
+        aria-label="LinkedIn Profile"
+      >
+        <FaLinkedin />
+      </IconLink>
+      <IconLink 
+        href={`mailto:${homeContent.email}`}
+        aria-label="Email Contact"
+      >
+        <FaEnvelope />
+      </IconLink>
     </FooterContainer>
   );
 };
