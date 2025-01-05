@@ -68,22 +68,26 @@ const TechStack = styled.div`
   }
 `;
 
-const Links = styled.div`
+const ButtonContainer = styled.div`
   display: flex;
-  gap: 2rem;
-  margin-bottom: 2rem;
+  gap: 1rem;
+  margin: 2rem 0;
+`;
+
+const Button = styled.a`
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid #64ffda;
+  border-radius: 4px;
+  color: #64ffda;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.2s ease;
   
-  a {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    color: #8892b0;
-    text-decoration: none;
-    font-size: 1.1rem;
-    
-    &:hover {
-      color: #64ffda;
-    }
+  &:hover {
+    background: rgba(100, 255, 218, 0.1);
   }
 `;
 
@@ -105,29 +109,6 @@ const ProjectImage = styled.img`
 
   &:hover {
     transform: scale(1.02);
-  }
-`;
-
-const ButtonContainer = styled.div`
-  display: flex;
-  gap: 1rem;
-  margin: 2rem 0;
-`;
-
-const Button = styled.a`
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.75rem 1.5rem;
-  border: 1px solid #64ffda;
-  border-radius: 4px;
-  color: #64ffda;
-  text-decoration: none;
-  font-size: 1rem;
-  transition: all 0.2s ease;
-  
-  &:hover {
-    background: rgba(100, 255, 218, 0.1);
   }
 `;
 
