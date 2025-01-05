@@ -38,4 +38,6 @@ export interface HomeContent {
   shortBio: string;
   resumeLink: string;
   education: Education;
+  linkedinUrl: string;
+  email: string;
 }
