@@ -20,16 +20,16 @@ export const homeContent: HomeContent = {
     minor: 'Computer Science',
     relevantCoursework: [
       {
-        name: 'ROB 550: Robotic Systems Laboratory',
-        description: 'Hands-on experience with robotic systems, including mobile robots, manipulation, and sensing.'
+        name: 'Introduction to Robotic Manipulation',
+        description: 'Introduction to Robotic Manipulation at the University of Michigan explores the principles of robotic manipulation, focusing on contact mechanics, perception, planning, and control strategies. The course emphasizes practical applications in unstructured environments, such as kitchens and offices, where uncertainty and decision-making are crucial. Students engage in simulations and hardware projects to develop autonomous systems capable of purposeful physical interactions.'
       },
       {
-        name: 'EECS 467: Autonomous Robotics',
-        description: 'Algorithms and techniques for robot perception, localization, mapping, and planning.'
+        name: 'Robotic SLAM',
+        description: 'Robotic SLAM at the University of Michigan focuses on developing autonomous navigation capabilities for mobile robots. Key topics include dead reckoning from odometry, sensor modeling of LIDAR and cameras, visual odometry, path planning, and simultaneous localization and mapping (SLAM).'
       },
       {
-        name: 'ROB 511: Robot Operating Systems',
-        description: 'Programming with ROS, including navigation, manipulation, and perception.'
+        name: 'Data Structures & Algorithms',
+        description: 'Data Structures and Algorithms at the University of Michigan introduces algorithm analysis and fundamental data structures, including lists, stacks, queues, priority queues, hash tables, binary trees, search trees, balanced trees, and graphs. The course covers searching and sorting algorithms, recursive algorithms, basic graph algorithms, and introduces greedy algorithms and divide-and-conquer strategies and more.'
       }
     ]
   }
