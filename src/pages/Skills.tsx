@@ -52,7 +52,9 @@ const SkillItem = styled(motion.div)`
 const skills: Skill[] = [
   // Programming Languages
   { name: 'C++', category: 'programming' },
+  { name: 'C', category: 'programming' },
   { name: 'Python', category: 'programming' },
+  { name: 'Assembly (LEGv8 & LC2K)', category: 'programming' },
   { name: 'Bash Script', category: 'programming' },
   { name: 'R', category: 'programming' },
   { name: 'Julia', category: 'programming' },
