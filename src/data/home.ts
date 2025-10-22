@@ -3,7 +3,7 @@ import { HomeContent } from '../types';
 export const homeContent: HomeContent = {
   welcomeBackground: '/images/home/robotics-bg.jpg',
   profileImage: '/images/home/Darren Cleeman Badge Photo.jpg',
-  resumeLink: '/Documents/Darren Cleeman(Resume) .pdf',
+  resumeLink: '/Documents/Darren Cleeman(Resume).pdf',
   welcomeMessage: 'Darren Cleeman\nRobotics Engineer & Software Developer',
   shortBio: `I am a Bachelor of Science in Engineering student at the University of Michigan, 
   majoring in Robotics with a minor in Computer Science. My focus is on robotic software and autonomy, combining a strong theoretical foundation with hands-on experience. 
