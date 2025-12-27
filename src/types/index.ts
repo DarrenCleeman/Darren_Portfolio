@@ -13,7 +13,7 @@ export interface Project {
 
 export interface Skill {
   name: string;
-  category: 'robotics' | 'programming' | 'tools' | 'soft-skills';
+  category: 'programming' | 'libraries' | 'robotics' | 'ides-os' | 'soft-skills';
   learnedFrom?: string;
 }
 

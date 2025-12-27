@@ -60,32 +60,28 @@ const skills: Skill[] = [
   { name: 'Julia', category: 'programming' },
   { name: 'Assembly (LEGv8 & LC2K)', category: 'programming' },
   
-  // Frameworks
+  // Libraries
+  { name: 'Pybullet', category: 'libraries' },
+  { name: 'Scipy', category: 'libraries' },
+  { name: 'Sympy', category: 'libraries' },
+  { name: 'Tkinter', category: 'libraries' },
+  
+  // Robotics
   { name: 'ROS2', category: 'robotics' },
   { name: 'RIX', category: 'robotics' },
-  
-  // Operating Systems
-  { name: 'Linux', category: 'tools' },
-  { name: 'Microsoft', category: 'tools' },
-  { name: 'Unix', category: 'tools' },
-  
-  // IDEs
-  { name: 'VSCode', category: 'tools' },
-  { name: 'RobotStudio', category: 'tools' },
-  { name: 'Visual Studio', category: 'tools' },
-  { name: 'RStudio', category: 'tools' },
-  
-  // Libraries
-  { name: 'Pybullet', category: 'robotics' },
-  { name: 'Scipy', category: 'robotics' },
-  { name: 'Sympy', category: 'robotics' },
-  { name: 'Tkinter', category: 'robotics' },
-  
-  // Robotics Skills
   { name: 'Robotic Manipulation', category: 'robotics' },
   { name: 'SLAM (Simultaneous Localization and Mapping)', category: 'robotics' },
   { name: 'Sensor Integration', category: 'robotics' },
   { name: 'Robot Control Systems', category: 'robotics' },
+  
+  // IDEs & OS's
+  { name: 'Linux', category: 'ides-os' },
+  { name: 'Microsoft', category: 'ides-os' },
+  { name: 'Unix', category: 'ides-os' },
+  { name: 'VSCode', category: 'ides-os' },
+  { name: 'RobotStudio', category: 'ides-os' },
+  { name: 'Visual Studio', category: 'ides-os' },
+  { name: 'RStudio', category: 'ides-os' },
   
   // Soft Skills
   { name: 'Project Management', category: 'soft-skills' },
@@ -95,9 +91,10 @@ const skills: Skill[] = [
 ];
 
 const categoryTitles = {
-  'programming': 'Programming Languages',
-  'tools': 'Tools & Operating Systems',
+  'programming': 'Coding Languages',
+  'libraries': 'Libraries',
   'robotics': 'Robotics',
+  'ides-os': "IDEs & OS's",
   'soft-skills': 'Soft Skills'
 };
 
