@@ -34,6 +34,10 @@ export const homeContent: HomeContent = {
       {
         name: 'Introduction to Algorithmic Robotics',
         description: 'Introduction to Algorithmic Robotics at the University of Michigan explores the foundational computational techniques that enable autonomous robot behavior. The course emphasizes key algorithms for robot planning, optimization, state estimation under uncertainty, motion planning, and processing of sensor data such as point clouds. Students gain hands-on experience applying these principles through programming assignments and simulation projects that require implementing and integrating algorithms for robot task execution. The class blends rigorous algorithmic reasoning with practical implementation to prepare students to design intelligent robotic systems capable of operating robustly in complex environments.'
+      },
+      {
+        name: 'Hands-On Robotics',
+        description: 'Hands-On Robotics at the University of Michigan is a project-based robotics course that immerses students in the full cycle of designing, building, and programming physical robot systems. Balancing lecture material on robotics fundamentals with extended team projects, the class challenges students to apply kinematics, sensing, control, and system integration in real hardware through multiple collaborative builds and demonstrations. Work is done in small interdisciplinary teams, where students coordinate mechanical fabrication, electronics, and software to achieve specified task goals under real-world constraints. The emphasis on hands-on experimentation, iteration, and evaluation reinforces core principles of robot design and control while highlighting practical engineering trade-offs. This course serves as both a foundation in robotics practice and a laboratory environment for developing the skills needed to build and deploy functioning robots.'
       }
     ]
   }

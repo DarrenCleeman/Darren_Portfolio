@@ -62,7 +62,7 @@ export const projects: Project[] = [
     title: 'SLAM Navigation',
     shortDescription: 'Designed and implemented a robotic navigation system for autonomous path planning and exploration in unknown environments.',
     longDescription: `
-      Designed and implemented a robotic navigation system focusing on autonomous path planning, obstacle avoidance, and exploration in unknown environments. The project utilized SLAM principles to enable efficient mapping and navigation. This work was completed as a project for Robotic SLAM, demonstrating practical application of simultaneous localization and mapping techniques.
+      Designed and implemented a robotic navigation system focusing on autonomous path planning, obstacle avoidance, and exploration in unknown environments. The project utilized SLAM principles to enable efficient mapping and navigation. This work was completed as a project for the Robotic SLAM course, demonstrating practical application of simultaneous localization and mapping techniques.
 
       Key Features:
       • Developed an obstacle distance grid to model safe distances from obstacles, improving path planning by avoiding collisions
@@ -149,6 +149,38 @@ export const projects: Project[] = [
     ],
     learnedSkills: ['Search-Based Planning', 'Heuristic Design', 'Algorithm Analysis', 'Motion Planning'],
     paperUrl: '/Documents/ANAstar_vs_Astar_SearchBased_Planning.pdf'
+  },
+  {
+    id: '6',
+    title: 'Waypoint Navigation Robot',
+    shortDescription: 'Designed and built a mobile robot capable of navigating a waypoint-based environment using real-time visual localization and onboard control as part of a four-person team.',
+    longDescription: `
+      Designed and built a mobile robot capable of navigating a waypoint-based environment using real-time visual localization and onboard control as part of a four-person team, consisting of two members focused on software development and two focused on mechanical design and fabrication. The project centered on integrating perception, communication, and motion by connecting the robot to an overhead vision system that continuously provided position and orientation data within a shared coordinate frame. Using this information, the robot executed controlled movements toward successive waypoints while maintaining stable communication with the tracking system. The system supported both manual and autonomous operation, enabling reliable initialization, recovery, and fallback control during live trials. Development emphasized close hardware–software coordination, revealing practical challenges related to steering traction, motion resolution, sensor noise, and alignment when transitioning from simulation to real-world execution. This work was completed as the second project for the Hands-On Robotics course, serving as an early capstone experience in team-based, perception-driven robotic system integration.
+
+      Key Features:
+      • Vision-based localization using an overhead camera network and AprilTag tracking
+      • Waypoint navigation within a shared global coordinate system
+      • Hybrid manual and autonomous control modes for robustness and recovery
+      • Sensor-driven control logic designed to handle noisy measurements
+      • Hardware redesigns to improve steering stability and ground traction
+      • Real-time communication with a centralized waypoint and vision server
+      • Evaluation through live, physical trials under competition constraints
+    `,
+    technologies: [
+      'Python',
+      'JoyApp Robotics Framework',
+      'AprilTag-Based Vision Tracking',
+      'TCP Communication',
+      'Mobile Robot Control',
+      'Hardware–Software Co-Design',
+      'Real-Time Robotic Systems'
+    ],
+    coverImage: '/images/projects/project_6/P6_CardImage.png',
+    images: [
+      '/images/projects/project_6/Description_Image1.png',
+      '/images/projects/project_6/Description_Image2.png'
+    ],
+    learnedSkills: ['Vision-Based Localization', 'Hardware-Software Integration', 'Real-Time Control', 'Team Collaboration']
   }
 ];
 
