@@ -6,14 +6,14 @@ export const projects: Project[] = [
     title: 'Polygon Collision Simulation',
     shortDescription: 'Developed a robust simulation framework for rigid body dynamics, focusing on convex polygon collisions and advanced physics modeling.',
     longDescription: `
-      Developed and implemented a robust simulation framework for rigid body dynamics, focusing on convex polygon collisions. The project explored advanced computational geometry and physics modeling to accurately simulate dynamic interactions under gravitational and external forces. Key features included collision detection using the Separating Axis Theorem (SAT), impulse-based and Linear Complementarity Problem (LCP) methods for collision response, and energy dissipation mechanisms such as drag forces and friction modeling. The framework supported customizable polygon generation and scalable simulations, showcasing realistic physical behaviors like momentum exchange, rotational dynamics, and stability.
+      Designed and implemented a physics-based simulation to model how rigid bodies interact through contact, collisions, and motion, with a focus on scenarios relevant to robotic manipulation. The system simulates multiple rigid-body convex polygons with different physical properties, showing how objects move, rotate, and interact under gravity and other influences. To ensure realistic behavior over time, the simulation includes drag effects that gradually slow objects down, allowing them to settle naturally instead of moving forever. The project emphasizes producing consistent and believable behavior during prolonged contact and movement, helping illustrate manipulation tasks such as pushing, stacking, and placing objects. This work was completed as the final project for the introductory robotic manipulation course, demonstrating how accurate physical modeling supports robot–object interaction and manipulation planning.
 
       Key Features:
-      • Collision detection using SAT for geometric precision
-      • Impulse-based and LCP formulations for resolving dynamic interactions
-      • Integration of rotational and linear dynamics
-      • Realistic energy dissipation via drag and friction modeling
-      • Customizable polygon creation for diverse simulations
+      • Multiple rigid-body convex polygons with varying physical properties
+      • Realistic motion, rotation, and interaction under gravity
+      • Drag effects for natural object settling behavior
+      • Collision detection and response for contact scenarios
+      • Support for manipulation tasks: pushing, stacking, and placing
     `,
     technologies: [
       'Python',

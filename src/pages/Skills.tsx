@@ -74,6 +74,8 @@ const skills: Skill[] = [
   { name: 'Sensor Integration', category: 'robotics' },
   { name: 'Robot Control Systems', category: 'robotics' },
   { name: 'Inter-Process Communication', category: 'robotics' },
+  { name: 'Forward & Inverse Kinematics', category: 'robotics' },
+  { name: 'Analytical Dynamics', category: 'robotics' },
   
   // IDEs & OS's
   { name: 'Linux', category: 'ides-os' },
