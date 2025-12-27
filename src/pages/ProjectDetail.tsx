@@ -172,6 +172,17 @@ const ProjectDetail = () => {
             ))}
           </ul>
         </TechStack>
+
+        {project.learnedSkills && project.learnedSkills.length > 0 && (
+          <TechStack>
+            <h3>Skills Learned</h3>
+            <ul>
+              {project.learnedSkills.map((skill, index) => (
+                <li key={index}>{skill}</li>
+              ))}
+            </ul>
+          </TechStack>
+        )}
         
         {project.images && project.images.length > 0 && (
           <ImageGrid>

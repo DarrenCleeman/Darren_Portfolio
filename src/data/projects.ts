@@ -6,7 +6,7 @@ export const projects: Project[] = [
     title: 'Polygon Collision Simulation',
     shortDescription: 'Developed a robust simulation framework for rigid body dynamics, focusing on convex polygon collisions and advanced physics modeling.',
     longDescription: `
-      Designed and implemented a physics-based simulation to model how rigid bodies interact through contact, collisions, and motion, with a focus on scenarios relevant to robotic manipulation. The system simulates multiple rigid-body convex polygons with different physical properties, showing how objects move, rotate, and interact under gravity and other influences. To ensure realistic behavior over time, the simulation includes drag effects that gradually slow objects down, allowing them to settle naturally instead of moving forever. The project emphasizes producing consistent and believable behavior during prolonged contact and movement, helping illustrate manipulation tasks such as pushing, stacking, and placing objects. This work was completed as the final project for the introductory robotic manipulation course, demonstrating how accurate physical modeling supports robot–object interaction and manipulation planning.
+      Designed and implemented a physics-based simulation to model how rigid bodies interact through contact, collisions, and motion, with a focus on scenarios relevant to robotic manipulation. The system simulates multiple rigid-body convex polygons with different physical properties, showing how objects move, rotate, and interact under gravity and other influences. To ensure realistic behavior over time, the simulation includes drag effects that gradually slow objects down, allowing them to settle naturally instead of moving forever. The project emphasizes producing consistent and believable behavior during prolonged contact and movement, helping illustrate manipulation tasks such as pushing, stacking, and placing objects. This work was completed as the final project for the Introduction to Robotic Manipulation course, demonstrating how accurate physical modeling supports robot–object interaction and manipulation planning.
 
       Key Features:
       • Multiple rigid-body convex polygons with varying physical properties
@@ -114,6 +114,38 @@ export const projects: Project[] = [
       '/images/projects/project_4/Description_Image3.png'
     ],
     learnedSkills: ['Middleware Design', 'Robotics Software Architecture', 'System Integration']
+  },
+  {
+    id: '5',
+    title: 'ANA* vs A* Search-Based Planning',
+    shortDescription: 'Designed and evaluated a search-based motion planning system to compare how different algorithms balance solution quality and computation time in robotic navigation.',
+    longDescription: `
+      Designed and evaluated a search-based motion planning system to compare how different algorithms balance solution quality and computation time in robotic navigation. This project implements and analyzes the classical A* algorithm alongside ANA*, an anytime variant designed to quickly produce a feasible path and refine it as additional computation time becomes available. The planners were applied to mobile robot navigation in maze-like environments with obstacles, using realistic collision checking and grid-based motion to reflect practical planning constraints. Multiple environments were used to study how algorithm behavior changes in narrow corridors, bottlenecks, open spaces, and misleading layouts, as well as how heuristic choice influences performance. The results highlight tradeoffs between optimality, responsiveness, and computational cost in real planning systems. This work was completed as the final project for ROB 422: Introduction to Algorithmic Robotics, demonstrating practical algorithmic decision-making in robotic motion planning.
+
+      Key Features:
+      • Implementation and comparison of A* and ANA* for robot navigation
+      • Support for anytime planning, allowing early feasible solutions and continued refinement
+      • Modular planning architecture separating search logic, heuristics, and collision checking
+      • Navigation on 8-connected grids with realistic movement costs
+      • Collision checking against complex maze geometries using simulation-based queries
+      • Evaluation across multiple environment types to highlight algorithm strengths and limitations
+      • Quantitative analysis of planning time, path cost, and search efficiency
+    `,
+    technologies: [
+      'Python',
+      'Search-Based Planning Algorithms',
+      'PyBullet Simulation',
+      'Grid-Based Motion Planning',
+      'Heuristic Search',
+      'Robotic Navigation & Collision Checking'
+    ],
+    coverImage: '/images/projects/project_5/P5_CardImage.png',
+    images: [
+      '/images/projects/project_5/Description_Image1.png',
+      '/images/projects/project_5/Description_Image2.png',
+      '/images/projects/project_5/Description_Image3.png'
+    ],
+    learnedSkills: ['Search-Based Planning', 'Heuristic Design', 'Algorithm Analysis', 'Motion Planning']
   }
 ];
 
