@@ -73,6 +73,7 @@ const skills: Skill[] = [
   { name: 'SLAM (Simultaneous Localization and Mapping)', category: 'robotics' },
   { name: 'Sensor Integration', category: 'robotics' },
   { name: 'Robot Control Systems', category: 'robotics' },
+  { name: 'Inter-Process Communication', category: 'robotics' },
   
   // IDEs & OS's
   { name: 'Linux', category: 'ides-os' },

@@ -28,8 +28,12 @@ export const homeContent: HomeContent = {
         description: 'Robotic SLAM at the University of Michigan focuses on developing autonomous navigation capabilities for mobile robots. Key topics include dead reckoning from odometry, sensor modeling of LIDAR and cameras, visual odometry, path planning, and simultaneous localization and mapping (SLAM).'
       },
       {
-        name: 'Data Structures & Algorithms',
-        description: 'Data Structures and Algorithms at the University of Michigan introduces algorithm analysis and fundamental data structures, including lists, stacks, queues, priority queues, hash tables, binary trees, search trees, balanced trees, and graphs. The course covers searching and sorting algorithms, recursive algorithms, basic graph algorithms, and introduces greedy algorithms and divide-and-conquer strategies and more.'
+        name: 'Robot Operating Systems',
+        description: 'Robot Operating Systems at the University of Michigan introduces the software foundations that enable complex robotic systems to operate reliably and at scale. The course focuses on middleware design, interprocess communication, concurrency, and modular system architecture, with an emphasis on publish–subscribe frameworks used in modern robotics. Students develop hands-on experience building and extending a robot operating system through programming-intensive labs and projects, integrating perception, planning, and control components. The course emphasizes robust software design for real-world robotic applications, preparing students to engineer scalable, maintainable systems for autonomous robots.'
+      },
+      {
+        name: 'Introduction to Algorithmic Robotics',
+        description: 'Introduction to Algorithmic Robotics at the University of Michigan explores the foundational computational techniques that enable autonomous robot behavior. The course emphasizes key algorithms for robot planning, optimization, state estimation under uncertainty, motion planning, and processing of sensor data such as point clouds. Students gain hands-on experience applying these principles through programming assignments and simulation projects that require implementing and integrating algorithms for robot task execution. The class blends rigorous algorithmic reasoning with practical implementation to prepare students to design intelligent robotic systems capable of operating robustly in complex environments.'
       }
     ]
   }
