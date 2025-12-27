@@ -7,6 +7,7 @@ export interface Project {
   technologies: string[];
   githubUrl?: string;
   demoUrl?: string;
+  paperUrl?: string;
   images: string[];
   learnedSkills: string[];
 }

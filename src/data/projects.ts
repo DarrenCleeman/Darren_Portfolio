@@ -29,7 +29,8 @@ export const projects: Project[] = [
       '/images/projects/project_1/Screen Shot 2025-01-05 at 1.26.30 AM.png',
       '/images/projects/project_1/Screen Shot 2025-01-05 at 1.25.40 AM.png'
     ],
-    learnedSkills: ['Computational Geometry', 'Physics Simulation', 'Numerical Methods', 'Algorithm Design']
+    learnedSkills: ['Computational Geometry', 'Physics Simulation', 'Numerical Methods', 'Algorithm Design'],
+    paperUrl: '/Documents/RIGID_BODY_SIMULATION_OF_CONVEX_POLYGON_COLLISIONS.pdf'
   },
   {
     id: '2',
@@ -61,7 +62,7 @@ export const projects: Project[] = [
     title: 'SLAM Navigation',
     shortDescription: 'Designed and implemented a robotic navigation system for autonomous path planning and exploration in unknown environments.',
     longDescription: `
-      Designed and implemented a robotic navigation system for a Robotic SLAM course, focusing on autonomous path planning, obstacle avoidance, and exploration in unknown environments. The project utilized SLAM principles to enable efficient mapping and navigation.
+      Designed and implemented a robotic navigation system focusing on autonomous path planning, obstacle avoidance, and exploration in unknown environments. The project utilized SLAM principles to enable efficient mapping and navigation. This work was completed as a project for Robotic SLAM, demonstrating practical application of simultaneous localization and mapping techniques.
 
       Key Features:
       • Developed an obstacle distance grid to model safe distances from obstacles, improving path planning by avoiding collisions
@@ -113,7 +114,8 @@ export const projects: Project[] = [
       '/images/projects/project_4/Description_Image2.png',
       '/images/projects/project_4/Description_Image3.png'
     ],
-    learnedSkills: ['Middleware Design', 'Robotics Software Architecture', 'System Integration']
+    learnedSkills: ['Middleware Design', 'Robotics Software Architecture', 'System Integration'],
+    paperUrl: '/Documents/RIX_ROS_BRIDGE.pdf'
   },
   {
     id: '5',
@@ -145,7 +147,8 @@ export const projects: Project[] = [
       '/images/projects/project_5/Description_Image2.png',
       '/images/projects/project_5/Description_Image3.png'
     ],
-    learnedSkills: ['Search-Based Planning', 'Heuristic Design', 'Algorithm Analysis', 'Motion Planning']
+    learnedSkills: ['Search-Based Planning', 'Heuristic Design', 'Algorithm Analysis', 'Motion Planning'],
+    paperUrl: '/Documents/ANAstar_vs_Astar_SearchBased_Planning.pdf'
   }
 ];
 

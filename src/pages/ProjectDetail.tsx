@@ -160,6 +160,11 @@ const ProjectDetail = () => {
               View Demo
             </Button>
           )}
+          {project.paperUrl && (
+            <Button href={project.paperUrl} target="_blank" rel="noopener noreferrer">
+              View Paper
+            </Button>
+          )}
         </ButtonContainer>
         
         <Description>{project.longDescription}</Description>
