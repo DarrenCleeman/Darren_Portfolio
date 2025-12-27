@@ -148,7 +148,8 @@ export const projects: Project[] = [
       '/images/projects/project_5/Description_Image3.png'
     ],
     learnedSkills: ['Search-Based Planning', 'Heuristic Design', 'Algorithm Analysis', 'Motion Planning'],
-    paperUrl: '/Documents/ANAstar_vs_Astar_SearchBased_Planning.pdf'
+    paperUrl: '/Documents/ANAstar_vs_Astar_SearchBased_Planning.pdf',
+    githubUrl: 'https://github.com/Darren-Cleeman/ANAstar_vs_Astar'
   },
   {
     id: '6',

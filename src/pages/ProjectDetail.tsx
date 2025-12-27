@@ -165,6 +165,11 @@ const ProjectDetail = () => {
               View Paper
             </Button>
           )}
+          {project.githubUrl && (
+            <Button href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+              View GitHub
+            </Button>
+          )}
         </ButtonContainer>
         
         <Description>{project.longDescription}</Description>
