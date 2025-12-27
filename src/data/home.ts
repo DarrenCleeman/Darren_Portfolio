@@ -5,11 +5,7 @@ export const homeContent: HomeContent = {
   profileImage: '/images/home/Darren Cleeman Badge Photo.jpg',
   resumeLink: '/Documents/Darren_Full_Resume.pdf',
   welcomeMessage: 'Darren Cleeman\nRobotics Engineer & Software Developer',
-  shortBio: `I am a Bachelor of Science in Engineering student at the University of Michigan, 
-  majoring in Robotics with a minor in Computer Science. My focus is on robotic software and autonomy, combining a strong theoretical foundation with hands-on experience. 
-  I've developed skills in software engineering, control systems, and experimental research through roles such as designing 
-  simulation tools at General Atomics and advancing UAV research at the HaptiX Lab. Passionate about creating innovative solutions, 
-  I am seeking opportunities to apply my expertise in robotics software, autonomous systems, and the integration of AI and machine learning.`,
+  shortBio: `I am a Bachelor of Science in Engineering student at the University of Michigan, majoring in Robotics with a minor in Computer Science. My academic interests focus on robotic software and autonomy, with an emphasis on building systems that can reliably sense, plan, and act in real-world environments. Through a combination of coursework, research, and hands-on projects, I have developed a strong foundation in robotics systems, control, and algorithmic decision-making. I am motivated by the challenge of translating theoretical ideas into practical robotic behavior and am seeking opportunities to continue working at the intersection of robotics, autonomy, and intelligent systems.`,
   linkedinUrl: 'https://www.linkedin.com/in/darren-cleeman-27318219b/',
   email: 'dcleeman@umich.edu',
   education: {
