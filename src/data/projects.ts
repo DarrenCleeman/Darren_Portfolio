@@ -107,7 +107,7 @@ export const projects: Project[] = [
       'Robotics Software Architecture',
       'Inter-Process Communication'
     ],
-    coverImage: '/images/projects/project_4/P4_ImageCard.png',
+    coverImage: '/images/projects/project_4/P4_CardImage.png',
     images: [
       '/images/projects/project_4/Description_Image1.png',
       '/images/projects/project_4/Description_Image2.png',
