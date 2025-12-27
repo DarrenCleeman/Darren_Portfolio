@@ -50,23 +50,36 @@ const SkillItem = styled(motion.div)`
 `;
 
 const skills: Skill[] = [
-  // Programming Languages
+  // Coding Languages
   { name: 'C++', category: 'programming' },
-  { name: 'C', category: 'programming' },
   { name: 'Python', category: 'programming' },
-  { name: 'Assembly (LEGv8 & LC2K)', category: 'programming' },
+  { name: 'C', category: 'programming' },
+  { name: 'RAPID', category: 'programming' },
   { name: 'Bash Script', category: 'programming' },
   { name: 'R', category: 'programming' },
   { name: 'Julia', category: 'programming' },
-  { name: 'MATLAB', category: 'programming' },
+  { name: 'Assembly (LEGv8 & LC2K)', category: 'programming' },
+  
+  // Frameworks
+  { name: 'ROS2', category: 'robotics' },
+  { name: 'RIX', category: 'robotics' },
   
   // Operating Systems
   { name: 'Linux', category: 'tools' },
+  { name: 'Microsoft', category: 'tools' },
+  { name: 'Unix', category: 'tools' },
   
-  // Development Tools
+  // IDEs
   { name: 'VSCode', category: 'tools' },
+  { name: 'RobotStudio', category: 'tools' },
+  { name: 'Visual Studio', category: 'tools' },
   { name: 'RStudio', category: 'tools' },
-  { name: 'MATLAB Environment', category: 'tools' },
+  
+  // Libraries
+  { name: 'Pybullet', category: 'robotics' },
+  { name: 'Scipy', category: 'robotics' },
+  { name: 'Sympy', category: 'robotics' },
+  { name: 'Tkinter', category: 'robotics' },
   
   // Robotics Skills
   { name: 'Robotic Manipulation', category: 'robotics' },
