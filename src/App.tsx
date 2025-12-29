@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import styled from 'styled-components';
 import { GlobalStyles } from './styles/GlobalStyles';
 import Home from './pages/Home';
@@ -30,6 +30,16 @@ const MainContent = styled.main`
   }
 `;
 
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
+
 const App = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -39,6 +49,7 @@ const App = () => {
 
   return (
     <Router>
+      <ScrollToTop />
       <AppContainer>
         <GlobalStyles />
         <TopBar onMenuClick={toggleSidebar} />
