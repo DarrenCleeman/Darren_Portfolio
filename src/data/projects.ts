@@ -30,7 +30,8 @@ export const projects: Project[] = [
       '/images/projects/project_1/Screen Shot 2025-01-05 at 1.25.40 AM.png'
     ],
     learnedSkills: ['Computational Geometry', 'Physics Simulation', 'Numerical Methods', 'Algorithm Design'],
-    paperUrl: '/Documents/RIGID_BODY_SIMULATION_OF_CONVEX_POLYGON_COLLISIONS.pdf'
+    paperUrl: '/Documents/RIGID_BODY_SIMULATION_OF_CONVEX_POLYGON_COLLISIONS.pdf',
+    githubUrl: 'https://github.com/Darren-Cleeman/Basic_Rigid_Body_Physics_Simulation'
   },
   {
     id: '2',
