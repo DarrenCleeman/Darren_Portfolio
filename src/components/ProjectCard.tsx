@@ -4,6 +4,11 @@ import { motion } from 'framer-motion';
 import { Project } from '../types';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 
+const CardLink = styled(Link)`
+  text-decoration: none;
+  display: block;
+`;
+
 const Card = styled(motion.div)`
   background: #112240;
   border-radius: 10px;
@@ -77,7 +82,7 @@ interface ProjectCardProps {
 }
 
 const ProjectCard = ({ project, isDetailed = false }: ProjectCardProps) => {
-  return (
+  const cardContent = (
     <Card
       whileHover={{ y: -5 }}
       transition={{ type: 'spring', stiffness: 300 }}
@@ -95,18 +100,31 @@ const ProjectCard = ({ project, isDetailed = false }: ProjectCardProps) => {
         </TechList>
         <Links>
           {project.demoUrl && (
-            <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
+            <a 
+              href={project.demoUrl} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+            >
               <FaExternalLinkAlt />
             </a>
           )}
           {!isDetailed && (
-            <Link to={`/projects/${project.id}`}>
-              Learn More
-            </Link>
+            <span style={{ color: '#8892b0' }}>Learn More</span>
           )}
         </Links>
       </ContentContainer>
     </Card>
+  );
+
+  if (isDetailed) {
+    return cardContent;
+  }
+
+  return (
+    <CardLink to={`/projects/${project.id}`}>
+      {cardContent}
+    </CardLink>
   );
 };
 
